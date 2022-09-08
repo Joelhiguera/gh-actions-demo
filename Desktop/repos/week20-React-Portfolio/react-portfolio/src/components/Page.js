@@ -20,4 +20,16 @@ const Page = ({currentPage}) => {
               return 'About Me'
     }
   }
+  return (
+    <>
+      <h2>
+        {currentPage.name}
+        <Content>
+          {renderPage()}
+        </Content>
+      </h2>
+    </>
+  )
 } 
+
+export default Page;
