@@ -18,10 +18,13 @@ header {
   padding: 40px;
   font-size: 20px;
   color: white;
+  height: 75vh;
 }
 
 .footer {
-  background-color: #084c61;
+  background-color: #2ea1c4;
   color: white;
   margin-bottom: 0%;
+  padding: 20px;
+  text-align: center;
 }
