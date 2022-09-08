@@ -1,19 +1,9 @@
 // import React from 'react';
 // import { Link } from 'react-router-dom';
-const Header = () => {
+const Header = (props) => {
   return (
     <header>
-      <h1>My Portfolio</h1>
-
-      <ul>
-        <li>Portfolio</li>
-        <li>About me</li>
-        <li>Projects</li>
-        <li>Contact</li>
-      </ul>
-
-
-      
+      {props.children}
     </header>
   )
 }

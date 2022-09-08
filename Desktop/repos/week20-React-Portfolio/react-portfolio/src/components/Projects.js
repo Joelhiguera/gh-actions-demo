@@ -9,6 +9,7 @@ const Project = ({project}) => {
         <div>
           <h3>
             <a href={deployed}>{name}</a>
+            {' '}
             <a href={repo}>Github</a>
           </h3>
           <p>{description}</p>
