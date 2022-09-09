@@ -22,12 +22,14 @@ const Page = ({currentPage}) => {
   }
   return (
     <>
-      <h2>
+      <h2 className='navigator'>
         {currentPage.name}
+      </h2>
+      <div className='pageBody'>
         <Content>
           {renderPage()}
         </Content>
-      </h2>
+      </div>
     </>
   )
 } 

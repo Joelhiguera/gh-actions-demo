@@ -1,8 +1,9 @@
-// import React from 'react';
-// import { Link } from 'react-router-dom';
+import React from 'react';
+
 const Header = (props) => {
   return (
     <header>
+      <h1>Joel Higuera</h1>
       {props.children}
     </header>
   )

@@ -4,7 +4,7 @@ const Navigator = (props) => {
   const { pages = [], setCurrentPage, currentPage } = props
   return (
     <nav>
-      <ul>
+      <ul className='navList'>
         {pages.map(page  => (
         <li className={`${currentPage.name === page.name && 'active'} `} key={page.name}><span onClick={() => setCurrentPage(page)}>{page.name}</span></li>
         ))}
