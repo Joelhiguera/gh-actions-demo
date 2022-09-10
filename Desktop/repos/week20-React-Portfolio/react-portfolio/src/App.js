@@ -3,6 +3,7 @@ import Page from './components/Page'
 import Header from './components/Header'
 import Aboutme from './components/Aboutme';
 import Footer from './components/Footer'
+import Contact from './components/Contact';
 import Navigator from './components/Navigator';
 
 function App() {

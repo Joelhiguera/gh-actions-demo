@@ -11,20 +11,120 @@ header {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   padding: 30px;
+  display: flex;
+  justify-content: space-between
+
+}
+
+.navList li {
+  list-style-type: none;
+  font-size: 30px;
+  display: inline;
+  margin-right: 30px;
+
+}
+
+li:hover {
+  color: black;
+  transition: background-color, color .5s;
+  cursor: pointer;
+}
+
+.active {
+  color: black;
+}
+
+.projectPage {
+  background-color: #084c61;
+  height: 73.5vh;
+
+  
+  
+}
+
+.projectTiles {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  
+  
+  
 }
 
 .aboutMe {
-  background-color: #084c61;
-  padding: 40px;
+  padding: 20px;
   font-size: 20px;
+  height: 73.5vh;
   color: white;
-  height: 75vh;
+  background-color: #084c61;
 }
 
+.navigator {
+  background-color: #084c61;
+  text-align: left;
+  font-size: 30px;
+  color: white;
+  padding: 20px
+}
+
+
+
+form {
+  padding: 20px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  background-color: #084c61;
+  font-size: 18px;
+  color: white;
+  height: 73.5vh;
+
+
+}
+
+#name, #email   {
+  margin-bottom: 1%;
+}
+
+
+
+
+#formSubmit {
+  margin-top: 1%;
+}
+
+
+
+input,
+textarea {
+  margin: 10px 0 0 0;
+  width: 40%;
+  min-height: 2em;
+  font-size: 16px;
+}
+
+
 .footer {
-  background-color: #2ea1c4;
+  /* background-color: #2ea1c4;
   color: white;
   margin-bottom: 0%;
   padding: 20px;
-  text-align: center;
+  text-align: center; */
+  width: 100%;
+  height: 100px;
+  background-color: #084c61;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+  margin-top: 200px;
+  position: fixed;
+  bottom: 0;
+}
+
+.socialMedia svg {
+  color: white;
+  margin: 20px;
+  font-size: 50px;
+  cursor: pointer;
 }
