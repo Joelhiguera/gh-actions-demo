@@ -7,13 +7,20 @@
 
 header {
   background-color: #56a3a6;
-  color: yellow;
+  color: #BFC0C0;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   padding: 30px;
   display: flex;
   justify-content: space-between
 
+}
+
+#avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 2%;
 }
 
 .navList li {
@@ -52,10 +59,10 @@ li:hover {
 }
 
 .aboutMe {
-  padding: 20px;
+  padding: 40px;
   font-size: 20px;
   height: 73.5vh;
-  color: white;
+  color: whitesmoke;
   background-color: #084c61;
 }
 
@@ -123,8 +130,15 @@ textarea {
 }
 
 .socialMedia svg {
-  color: white;
+  color: gray;
   margin: 20px;
   font-size: 50px;
   cursor: pointer;
+}
+
+.socialMedia svg:hover {
+  color: white;
+  transition: background-color, color .5s;
+  cursor: pointer;
+
 }
